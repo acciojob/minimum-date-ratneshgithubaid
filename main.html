@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>Find Minimum Date</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <h2>Find the Earliest Date</h2>
+    <p>Enter dates separated by commas (YYYY/MM/DD)</p>
+    <input type="text" id="dateInput" placeholder="2023/03/01, 2023/03/02, 2023/03/03">
+    <button onclick="handleFindMinDate()">Get Minimum Date</button>
+    <div id="result"></div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
